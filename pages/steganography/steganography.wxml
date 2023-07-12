@@ -1,0 +1,15 @@
+<!--pages/steganography/steganography.wxml-->
+<!--pages/segment/segment.wxml-->
+<view class="page-container">
+  <view id="segment-container" style="background-color: {{ defalut_color }};">
+    <image class="steganography-image" src="{{ imageUrl }}"  bindtap="chooseImage">
+    </image>
+    <image class="steganography-image" src="{{ qrUrl }}"  bindtap="chooseImage">
+    </image>
+  </view>
+  <input bindinput="inputContent" class="qr-msg" type="text" placeholder="输入要隐写的内容"/>
+  <view class="btns">
+    <button class="choose-btn" bindtap="steganography">隐写图片</button>
+    <button class="choose-btn" bindtap="anti_steganography">解析图片</button>
+  </view>
+</view>

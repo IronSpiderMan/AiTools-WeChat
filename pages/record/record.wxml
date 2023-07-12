@@ -1,0 +1,21 @@
+<!--pages/record/record.wxml-->
+<scroll-view scroll-y style="width: 100%; height: 100%;">
+  <!-- 展示方式选择 -->
+  <view class="display-type">
+    <view class="iconfont icon-morentubiao"></view>
+    <view style="width: 15rpx;"></view>
+    <view class="iconfont icon-list"></view>
+  </view>
+  <!-- 单个修复历史 -->
+  <view id="fix" class="record" bindtap="chooseFeature">
+    <image class="record-image" src=""></image>
+    <view class="record-msg">
+      <text style="margin-left: 22rpx;" class="feature-title">2022.03.07 13:00:00</text>
+      <text style="margin-right: 22rpx;" class="feature-describe">修复</text>
+    </view>
+  </view>
+  <view class="record">测试</view>
+  <view class="record">测试</view>
+  <view class="record">测试</view>
+  <view class="record">测试</view>
+</scroll-view>

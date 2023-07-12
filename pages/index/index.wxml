@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<scroll-view scroll-y style="width: 100%; height: 100%;">
+  <!-- 展示方式选择 -->
+  <!-- <view class="display-type">
+    <view class="iconfont icon-morentubiao"></view>
+    <view style="width: 15rpx;"></view>
+    <view class="iconfont icon-list"></view>
+  </view> -->
+  <!-- 单个功能布局 -->
+  <view id="segment" class="feature" bindtap="chooseFeature">
+    <image class="feature-image" src="http://39.100.68.34:5000/static/images/zack.jpg"></image>
+    <view class="feature-item">
+      <text class="feature-title">证件照生成</text>
+      <text class="feature-describe">
+        上传照片，自动生成证件照，可以自由切换底色。
+      </text>
+    </view>
+  </view>
+  <view id="steganography" class="feature" bindtap="chooseFeature">
+    <image class="feature-image" src="http://39.100.68.34:5000/static/images/zack.jpg"></image>
+    <view class="feature-item">
+      <text class="feature-title">图像隐写</text>
+      <text class="feature-describe">
+        在图片中隐写二维码或者解析出隐写内容。
+      </text>
+    </view>
+  </view>
+  <view class="feature">测试</view>
+  <view class="feature">测试</view>
+  <view class="feature">测试</view>
+  <view class="feature">测试</view>
+</scroll-view>

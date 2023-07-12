@@ -1,0 +1,17 @@
+<!--pages/segment/segment.wxml-->
+<view class="page-container">
+  <!-- <canvas id="segment-canvas" class="segment-canvas" type="2d" style="background-color: {{ defalut_color }};"></canvas> -->
+  <view id="segment-container" class="segment-image" style="background-color: {{ defalut_color }};">
+    <image class="segment-image" src="{{ imageUrl }}"  bindtap="chooseImage">
+    </image>
+  </view>
+  <view class="colors"> 
+    <block wx:for="{{ colors }}">
+      <view wx:key data-index="{{ index }}" 
+      class='{{item.choosed ? "color-choosed" : "color" }}' 
+      style="background-color: {{ item.color }};" bindtap="chooseColor">
+      </view>
+    </block>
+  </view>
+  <button style="width: 680rpx;" class="choose-btn">下载图片</button>
+</view>

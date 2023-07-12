@@ -1,0 +1,42 @@
+/* pages/segment/segment.wxss */
+.page-container{
+  text-align: center;
+  /* background-color: blanchedalmond; */
+}
+.color, .color-choosed{
+  width: 50rpx;
+  height: 50rpx;
+  margin: 50rpx;
+  border-radius: 50rpx;
+  box-shadow:2rpx 2rpx 2rpx gray;
+}
+.color-choosed{
+  border: black solid 3rpx;
+}
+.segment-canvas{
+  margin: 0 auto;
+  width: 716rpx;
+  height: 882rpx;
+  /* background-color: brown; */
+}
+
+.segment-image{
+  margin: 0 auto;
+  width: 716rpx;
+  height: 882rpx;
+  /* background-color: brown; */
+}
+.colors{
+  margin: 0rpx auto;
+  width: 680rpx;
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: left;
+}
+.choose-btn{
+  margin: 30rpx auto;
+  width: 680rpx;
+  height: 80rpx;
+  background-color: darkturquoise;
+  align-content: center;
+}

@@ -1,0 +1,26 @@
+/* pages/steganography/steganography.wxss */
+.page-container{
+  text-align: center;
+  /* background-color: blanchedalmond; */
+}
+.steganography-image{
+  margin: 30rpx auto;
+  width: 350rpx;
+  height: 350rpx;
+  /* background-color: brown; */
+}
+.qr-msg{
+  margin: 32rpx auto;
+  font-size: 32rpx;
+}
+.btns{
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: left;
+}
+.choose-btn{
+  margin: 30rpx auto;
+  width: 280rpx;
+  height: 80rpx;
+  background-color: darkturquoise;
+}

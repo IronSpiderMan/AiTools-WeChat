@@ -1,0 +1,52 @@
+/* pages/record/record.wxss */
+.record {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 550rpx;
+  margin: 24px auto;
+  background-color: aqua;
+  border-radius: 22rpx;
+  text-align: center;
+}
+.record-image{
+  margin: 22rpx auto;
+  width: 90%;
+  height: 75%;
+  background-color: beige;
+}
+.record-msg{
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-type{
+  margin-top: 35rpx;
+  margin-right: 35rpx;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4119519 */
+  src: url('//at.alicdn.com/t/c/font_4119519_c66ki2spr2.woff2?t=1686625969310') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4119519_c66ki2spr2.woff?t=1686625969310') format('woff'),
+       url('//at.alicdn.com/t/c/font_4119519_c66ki2spr2.ttf?t=1686625969310') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 45rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-list:before {
+  content: "\e7f6";
+}
+
+.icon-morentubiao:before {
+  content: "\e7f7";
+}
+

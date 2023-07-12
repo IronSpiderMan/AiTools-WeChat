@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/record/record",
+    "pages/mine/mine",
+    "pages/segment/segment",
+    "pages/steganography/steganography",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "@navigationBarBackgroundColor",
+    "navigationBarTitleText": "功能列表",
+    "navigationBarTextStyle":"@navigationBarTextStyle"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "darkmode": true,
+  "themeLocation": "theme.json",
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#F2A602",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "功能列表"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "修复记录"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}
